@@ -10,6 +10,7 @@ These include:
 
 - [One Page Website](#one-page-website)
 - [Movie Theater Site](#movie-theater-site)
+- [My First Website](#my-first-website)
 
 ---
 
@@ -24,3 +25,12 @@ The goal of this project was to practice working with sections, navigation bars,
 
 This project is an example home page for a fictional movie theater. The website was designed using Bootstrap 4 to take advantage of its grid system, pre-built components, and responsive features.  
 The project allowed me to explore how Bootstrap speeds up web design while keeping the site responsive and mobile-friendly.
+
+---
+
+
+### My First Website
+
+This was my attempt at building a website from scratch using HTML and CSS.  
+It served as a creative sandbox where I experimented with various HTML elements, basic CSS styling, layout techniques, and interactive features.  
+While it started as a simple experiment, it ended up turning into a project I’m proud of—combining all the skills I learned into a playful and vibrant design that reflected my progress at the time and my creativity.
