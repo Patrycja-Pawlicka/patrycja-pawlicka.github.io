@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV BAR -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO VIDEO BANNER -->
+  <section id="home" class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="Animation/typing.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="hero-content">
+      <h1>Welcome to my first portfolio</h1>
+    </div>
+  </section>
+
+  <!-- ABOUT CODING SECTION (Grid Style) -->
+  <section id="about" class="grid-section">
+    <div class="grid-item photo">
+      <img src="Img/coding.jpg" alt="Coding Photo">
+    </div>
+    <div class="grid-item text">
+      <h2>My Coding Journey</h2>
+      <p>
+        I started looking into coding in early 2023 as a fun way to challenge myself and learn something completely new.
+        Since I was always fascinated by game graphics and creative projects, programming felt like the next natural step.
+        I initially dived into C#, but soon shifted my focus to the exciting world of HTML and CSS. As my skills grew, so did my hunger for knowledge, and I eagerly took on JavaScript as my next adventure.
+        I've been hooked ever since, loving every moment of it. I'm now studying Computer Science at university, eager to turn this passion into a career where I can bring ideas to life on the web and beyond.
+      </p>
+      <p>
+        Visit my <a href="https://github.com/yourusername" target="_blank">GitHub</a> to see my projects!
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT HOBBIES SECTION (Grid Style Reversed) -->
+  <section class="grid-section reverse">
+    <div class="grid-item text">
+      <h2>More About Me</h2>
+      <p>
+        Beyond the screen and code, I'm all about creativity in every form.
+        I love to draw, paint, and express myself through music — I play the guitar and I'm learning piano too.
+        And when the mood hits, you can find me at karaoke with friends, singing my heart out.
+        Yoga has also become a new favorite hobby, giving me space to decompress and reconnect with myself.
+        I adore the outdoors just as much as I enjoy cozy gaming nights.
+        But my biggest passion of all? Writing.
+        I’ve explored many genres, but fantasy will always hold a special place in my heart.
+      </p>
+    </div>
+    <div class="grid-item photo">
+      <img src="Img/create.jpg" alt="Creative Hobbies Photo">
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/movdkzdz" method="POST">
+      <label>
+        Your email:
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Your message:
+        <textarea name="message" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</body>
+</html>

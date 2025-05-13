@@ -1,0 +1,167 @@
+/* Base Reset & Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Nav */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FF5722;
+}
+
+/* Hero section with video */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20vh;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+
+/* Grid Section */
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+.grid-section.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.grid-item.photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid #000;
+}
+
+.grid-item.text {
+  text-align: left;
+}
+
+.grid-item.text h2 {
+  font-size: 2.5em;
+  color: #FF5722;
+  margin-bottom: 20px;
+}
+
+.grid-item.text p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.grid-item.text a {
+  color: #FF5722;
+  font-weight: bold;
+}
+
+.grid-item.text a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#contact form {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+}
+
+#contact label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 10px 20px;
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #e64a19;
+}
