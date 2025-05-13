@@ -4,7 +4,7 @@ Here you can find links to my GitHub repositories as well as some information ab
 
 ---
 
-## Inside the HTML and CSS repository, you will find projects that I have worked on while progressing through my HTML and CSS course.
+## Inside the HTML and CSS folder, you will find projects that I have worked on while progressing through my HTML and CSS course.
 
 These include:
 
