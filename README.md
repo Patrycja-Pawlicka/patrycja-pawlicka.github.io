@@ -28,7 +28,6 @@ The project allowed me to explore how Bootstrap speeds up web design while keepi
 
 ---
 
-
 ### My First Website
 
 This was my attempt at building a website from scratch using HTML and CSS.  

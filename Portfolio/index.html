@@ -18,7 +18,7 @@
 
   <!-- HERO VIDEO BANNER -->
   <section id="home" class="hero">
-    <video autoplay muted loop id="bg-video">
+    <video autoplay muted loop id="bg-video" playsinline>
       <source src="Animation/typing.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
@@ -44,7 +44,7 @@
         I'm now studying Computer Science at university, eager to turn this passion into a career where I can bring ideas to life on the web and beyond.
       </p>
       <p>
-        Visit my <a href="https://github.com/yourusername" target="_blank">GitHub</a> to see my projects!
+        Visit my <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> to see my projects!
       </p>
     </div>
   </section>
@@ -83,6 +83,12 @@
       <button type="submit">Send</button>
     </form>
   </section>
+
+  <!-- Back to top button -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Main JavaScript -->
+  <script defer src="main.js"></script>
 
 </body>
 </html>

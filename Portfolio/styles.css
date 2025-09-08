@@ -231,3 +231,53 @@ nav ul li a:hover::after {
   transform: scale(1.05);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+/* Active link style (set by JS) */
+nav ul li a.active {
+  color: #FF416C;
+}
+nav ul li a.active::after {
+  width: 100%;
+}
+
+/* Nav shadow on scroll (set by JS) */
+nav.scrolled {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* Reveal on scroll (set by JS) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* Back to top button */
+#backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: #FF416C;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease, transform .3s ease;
+}
+#backToTop.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+#backToTop:hover {
+  transform: translateY(-3px);
+}
